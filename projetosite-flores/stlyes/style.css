@@ -125,6 +125,7 @@ li > a:hover {
     text-decoration: none;
     background-color: var(--cor005);
     font-family: var(--fonteserif);
+    font-size: 0.9em;
     border-radius: 10px;
 }
 
@@ -140,7 +141,7 @@ li > a:hover {
 /* SECTION SERVIÇOS */
 
 .servicos {
-    background-color: var(--cornavheader);
+    background-color: #eec38fc2;
 }
 
 article {
@@ -149,17 +150,8 @@ article {
     flex-direction: column;
 }
 
-article > img {
-    image-rendering: auto;
-    width: 75vw;
-    height: 100vw;
-    border-radius: 700px 700px 0px 0px;
-    border: 2px solid var(--cor003);
-}
-
-#conteudo1 > p {
-    text-align: center;
-    padding: 0.5em 4em;
+article p, h3{
+    background-color: #eec38fc2;
 }
 
 article h3 {
@@ -167,12 +159,31 @@ article h3 {
     color: var(--cor005);  
     text-align: center;
     font-family: var(--fonteserif);
-    font-size: 1.3em;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.123);
+    width: 75vw;
+}
+
+article p {
+    text-align: center;
+    padding: 0.7em 0.7em 1em;
+    font-size: 1.1em;
+    width: 75vw;
+    margin-bottom: 3em;
+}
+
+article > img {
+    image-rendering: auto;
+    width: 75vw;
+    height: 100vw;
+    border-radius: 1000px 1000px 0px 0px;
+    border: 2px solid var(--cor003);
 }
 
 .servicos h2 {
     text-align: center;
-    padding: 0.5em;
+    padding: 0.8em;
+    padding-bottom: 2em;
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);
 }
