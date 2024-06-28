@@ -100,7 +100,7 @@ li > a:hover {
 }
 
 .introducao h2 {
-    padding: 6em 0.5em 1.5em 1em;
+    padding: 6em 0.5em 1.5em 0.5em;
     font-family: var(--fonteserif);
     font-size: 1.8em;
     font-weight: 500;
@@ -166,7 +166,7 @@ article h3 {
 
 article p {
     text-align: center;
-    padding: 0.7em 0.7em 1em;
+    padding: 0.7em 0.7em 1em 0.7em;
     font-size: 1.1em;
     width: 75vw;
     margin-bottom: 3em;
