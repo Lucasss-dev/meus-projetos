@@ -2,5 +2,5 @@
 
 PROGRESSO PROJETOS
 
--SITEFLORES - apenas versão mobile first finalizada
+-SITEFLORES - 
 https://lucasss-dev.github.io/meus-projetos/projetosite-flores/index.html
