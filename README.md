@@ -2,5 +2,8 @@
 
 PROGRESSO PROJETOS
 
--SITEFLORES - 
+- SITEFLORES - 
 https://lucasss-dev.github.io/meus-projetos/projetosite-flores/index.html
+
+- SITE IA -
+https://lucasss-dev.github.io/meus-projetos/projetosite-ia/index.html
