@@ -12,7 +12,6 @@
 
 html {
     font-family: Roboto Condensed;
-    transition: width 0.7s ease, height 0.7s ease;
 }
 
 body {
@@ -21,6 +20,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+main {
+    transition: width 0.7s ease, height 0.7s ease;
 }
 
 header {
@@ -33,6 +36,8 @@ header {
 }
 
 header h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
     color: white;
     font-family: RobotoSerif;
     text-transform: uppercase;
@@ -42,9 +47,9 @@ header h1 {
 header button {
     border: none;
     background-color: #3c434bd2;
-    width: 70px;
-    height: 40px;
-    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.466);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     font-size: 0.9rem;
@@ -54,7 +59,7 @@ header button {
 header button:hover {
     text-decoration: underline;
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.719);
-    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.137);
+    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.219);
     cursor: pointer;
     transition-duration: 0.5s;
 }
@@ -68,18 +73,28 @@ nav > ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
 
     list-style-type: none;
     color: white;
     font-size: 1.2rem;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+    font-weight: 600;
 }
 
 nav > ul > li:hover {
     text-decoration: underline;
     text-shadow: 1px 1px 10px white;
     transition-duration: 0.5s;
+}
+
+#menu {
+    display: none;
+}
+
+#menu:hover {
+    color: white;
+    transition-duration: 0.5s ;
 }
 
 section {
@@ -89,25 +104,25 @@ section {
 }
 
 section h1 {
-    font-size: 3.5rem;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+    font-size: 4.5rem;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.767);
 }
 
 section p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 1.5rem 0 2rem 0;
     text-indent: 0.4rem;
     font-weight: 300;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
 }
 
 section button {
     width: 150px;
-    height: 50px;
+    height: 60px;
     border: none;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.24);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.281);
     background-color: #3c434bd2;
-    border-radius: 30% 20% 60% 60%;
+    border-radius: 20px;
 }
 
 section button a {
@@ -120,7 +135,7 @@ section button a {
 
 section button:hover {
     background-color: #535d68d2;
-    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.185);
+    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.027);
     cursor: pointer;
     transition: 0.5s;
 }

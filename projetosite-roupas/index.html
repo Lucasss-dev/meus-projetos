@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mude seu visual com nossas roupas que nenhum lugar oferece! Compre já.">
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/mediaqueries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Merlin</title>
 </head>
 <body>
@@ -12,7 +14,8 @@
         <h1>
             merlin
         </h1>
-        <nav>
+        <i id="menu" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="items" onclick="clickMenu()">
             <ul>
                 <li><a href="#">Sobre-Nós</a></li>
                 <li><a href="#">Catálogo</a></li>
@@ -36,5 +39,14 @@
             </button>
         </section>
     </main>
+    <script>
+        function clickMenu () {
+            if (items.style.display == "block") {
+                items.style.display = "none"
+            } else {
+                items.style.display = "block"
+            }
+        }
+    </script>
 </body>
 </html>
