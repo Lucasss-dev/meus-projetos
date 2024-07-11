@@ -5,7 +5,7 @@ PROGRESSO PROJETOS
 - SITEFLORES - 
 https://lucasss-dev.github.io/meus-projetos/projetosite-flores/index.html
 
-- SITE IA - SEM VERSÃO MOBILE
+- SITE IA - 
 https://lucasss-dev.github.io/meus-projetos/projetosite-ia/index.html
 
 - SITE ROUPA -
